@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.table-div {
+  margin: 50px auto;
+  width: 90vw;
+
+  height: 100vh;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0.5px 1px 5px 2px rgb(235, 234, 234);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+thead {
+  border-bottom: solid 1px;
+}
+tr:nth-child(even) {
+  background-color: #d6eeee;
+  border-bottom: 1px solid #ddd;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.pagination a {
+  margin: 8px;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: rgb(68, 68, 68);
+  font-size: medium;
+  font-weight: 200;
+  cursor: pointer;
+}
+.pagination a:hover {
+  color: white;
+  background-color: rgb(112, 111, 111);
+}
+.pageActive a {
+  color: black;
+  background-color: #bbd4d4;
+}
+.displayRows {
+  width: fit-content;
+  color: rgb(68, 68, 68);
+  font-size: small;
+  font-weight: 200;
+  /*border: 1px solid gray;*/
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.add-expense-button {
+  background-color: rgb(66, 144, 72);
+
+  color: whitesmoke;
+  height: 40px;
+  width: 120px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+}
+.toggle-button,
+.sort-button {
+  background-color: white;
+  border: none;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.filter-select {
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: rgb(68, 68, 68);
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  height: 40px;
+  font-weight: 500;
+  font-size: medium;
+  color: black;
+  margin: auto 10px;
+}
+.table-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+}

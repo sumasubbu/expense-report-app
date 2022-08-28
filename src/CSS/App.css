@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  font-size: 20px;
+}
+
+.dashboard-header {
+  width: 100%;
+  background-color: whitesmoke;
+  height: 30px;
+}
+nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8vh;
+
+  background-color: #bbd4d4;
+  color: rgb(56, 56, 56);
+}
+
+nav h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+p {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-weight: normal;
+  text-decoration: none;
+}
